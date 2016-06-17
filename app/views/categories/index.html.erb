@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Categories</h1>
+<h1>Mostrando Categorias</h1>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>Nome</th>
@@ -14,9 +14,9 @@
     <% @categories.each do |category| %>
       <tr>
         <td><%= category.nome %></td>
-        <td><%= link_to 'Show', category %></td>
-        <td><%= link_to 'Edit', edit_category_path(category) %></td>
-        <td><%= link_to 'Destroy', category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', category, class: "btn btn-default" %></td>
+        <td><%= link_to 'Edit', edit_category_path(category), class: "btn btn-info" %></td>
+        <td><%= button_to 'Destroy', category, method: :delete, class: "btn btn-danger", data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
