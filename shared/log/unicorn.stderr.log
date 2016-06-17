@@ -1,0 +1,158 @@
+I, [2016-06-16T21:57:57.369892 #97819]  INFO -- : Refreshing Gem list
+DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from <class:Application> at /mnt/hgfs/Code/tennis-app/config/application.rb:25)
+F, [2016-06-16T21:57:59.812143 #97819] FATAL -- : error adding listener addr=/mnt/hgfs/Code/tennis-app/shared/sockets/unicorn.sock
+/home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `initialize': Operation not permitted - connect(2) for /mnt/hgfs/Code/tennis-app/shared/sockets/unicorn.sock (Errno::EPERM)
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `new'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:231:in `listen'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `each'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:130:in `start'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `load'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `<main>'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+I, [2016-06-16T21:58:20.485902 #97969]  INFO -- : Refreshing Gem list
+DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from <class:Application> at /mnt/hgfs/Code/tennis-app/config/application.rb:25)
+F, [2016-06-16T21:58:22.804078 #97969] FATAL -- : error adding listener addr=/mnt/hgfs/Code/tennis-app/shared/sockets/unicorn.sock
+/home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `initialize': Operation not permitted - connect(2) for /mnt/hgfs/Code/tennis-app/shared/sockets/unicorn.sock (Errno::EPERM)
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `new'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:231:in `listen'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `each'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:130:in `start'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `load'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `<main>'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+I, [2016-06-16T22:08:09.448953 #98274]  INFO -- : Refreshing Gem list
+DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from <class:Application> at /mnt/hgfs/Code/tennis-app/config/application.rb:25)
+F, [2016-06-16T22:08:11.695726 #98274] FATAL -- : error adding listener addr=/mnt/hgfs/Code/tennis-app/shared/sockets/unicorn.sock
+/home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `initialize': Operation not permitted - connect(2) for /mnt/hgfs/Code/tennis-app/shared/sockets/unicorn.sock (Errno::EPERM)
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `new'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:231:in `listen'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `each'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:130:in `start'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `load'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `<main>'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+I, [2016-06-16T22:10:17.929157 #98441]  INFO -- : Refreshing Gem list
+F, [2016-06-16T22:10:20.297858 #98441] FATAL -- : error adding listener addr=/mnt/hgfs/Code/tennis-app/shared/sockets/unicorn.sock
+/home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `initialize': Operation not permitted - connect(2) for /mnt/hgfs/Code/tennis-app/shared/sockets/unicorn.sock (Errno::EPERM)
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `new'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:231:in `listen'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `each'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:130:in `start'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `load'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `<main>'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+	from /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+I, [2016-06-16T22:15:04.284243 #98597]  INFO -- : Refreshing Gem list
+I, [2016-06-16T22:15:06.522096 #98597]  INFO -- : listening on addr=/tmp/sockets/unicorn.sock fd=12
+I, [2016-06-16T22:15:06.522469 #98597]  INFO -- : worker=0 spawning...
+I, [2016-06-16T22:15:06.524754 #98597]  INFO -- : worker=1 spawning...
+I, [2016-06-16T22:15:06.525242 #98600]  INFO -- : worker=0 spawned pid=98600
+I, [2016-06-16T22:15:06.525426 #98600]  INFO -- : worker=0 ready
+I, [2016-06-16T22:15:06.527741 #98597]  INFO -- : master process ready
+I, [2016-06-16T22:15:06.528318 #98603]  INFO -- : worker=1 spawned pid=98603
+I, [2016-06-16T22:15:06.528489 #98603]  INFO -- : worker=1 ready
+I, [2016-06-16T22:46:58.134401 #98597]  INFO -- : reaped #<Process::Status: pid 98600 exit 0> worker=0
+I, [2016-06-16T22:46:58.135109 #98597]  INFO -- : reaped #<Process::Status: pid 98603 exit 0> worker=1
+I, [2016-06-16T22:46:58.135268 #98597]  INFO -- : master complete
+I, [2016-06-16T23:14:44.562277 #99667]  INFO -- : Refreshing Gem list
+I, [2016-06-16T23:14:46.896588 #99667]  INFO -- : unlinking existing socket=/tmp/sockets/unicorn.sock
+I, [2016-06-16T23:14:46.897008 #99667]  INFO -- : listening on addr=/tmp/sockets/unicorn.sock fd=12
+I, [2016-06-16T23:14:46.897118 #99667]  INFO -- : worker=0 spawning...
+I, [2016-06-16T23:14:46.899105 #99667]  INFO -- : worker=1 spawning...
+I, [2016-06-16T23:14:46.900453 #99671]  INFO -- : worker=0 spawned pid=99671
+I, [2016-06-16T23:14:46.900857 #99671]  INFO -- : worker=0 ready
+I, [2016-06-16T23:14:46.902371 #99667]  INFO -- : master process ready
+I, [2016-06-16T23:14:46.903910 #99674]  INFO -- : worker=1 spawned pid=99674
+I, [2016-06-16T23:14:46.904172 #99674]  INFO -- : worker=1 ready
+E, [2016-06-16T23:14:56.159931 #99671] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2016-06-16T23:14:56.160524 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2016-06-16T23:14:56.160569 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/application.rb:246:in `env_config'
+E, [2016-06-16T23:14:56.160600 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/engine.rb:514:in `call'
+E, [2016-06-16T23:14:56.160635 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+E, [2016-06-16T23:14:56.160664 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:562:in `process_client'
+E, [2016-06-16T23:14:56.160692 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:658:in `worker_loop'
+E, [2016-06-16T23:14:56.160780 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:508:in `spawn_missing_workers'
+E, [2016-06-16T23:14:56.160803 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:132:in `start'
+E, [2016-06-16T23:14:56.160823 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+E, [2016-06-16T23:14:56.160854 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `load'
+E, [2016-06-16T23:14:56.160881 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `<main>'
+E, [2016-06-16T23:14:56.160901 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+E, [2016-06-16T23:14:56.160920 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+E, [2016-06-16T23:16:00.488093 #99671] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2016-06-16T23:16:00.488341 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2016-06-16T23:16:00.488394 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/application.rb:246:in `env_config'
+E, [2016-06-16T23:16:00.488419 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/engine.rb:514:in `call'
+E, [2016-06-16T23:16:00.488453 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+E, [2016-06-16T23:16:00.488484 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:562:in `process_client'
+E, [2016-06-16T23:16:00.488513 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:658:in `worker_loop'
+E, [2016-06-16T23:16:00.488543 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:508:in `spawn_missing_workers'
+E, [2016-06-16T23:16:00.488572 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:132:in `start'
+E, [2016-06-16T23:16:00.488608 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+E, [2016-06-16T23:16:00.488637 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `load'
+E, [2016-06-16T23:16:00.488658 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `<main>'
+E, [2016-06-16T23:16:00.488726 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+E, [2016-06-16T23:16:00.488767 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+E, [2016-06-16T23:16:02.618915 #99671] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2016-06-16T23:16:02.619397 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2016-06-16T23:16:02.619445 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/application.rb:246:in `env_config'
+E, [2016-06-16T23:16:02.619470 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/engine.rb:514:in `call'
+E, [2016-06-16T23:16:02.619498 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+E, [2016-06-16T23:16:02.619528 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:562:in `process_client'
+E, [2016-06-16T23:16:02.619557 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:658:in `worker_loop'
+E, [2016-06-16T23:16:02.619586 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:508:in `spawn_missing_workers'
+E, [2016-06-16T23:16:02.619615 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:132:in `start'
+E, [2016-06-16T23:16:02.619649 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+E, [2016-06-16T23:16:02.619678 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `load'
+E, [2016-06-16T23:16:02.619707 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `<main>'
+E, [2016-06-16T23:16:02.619735 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+E, [2016-06-16T23:16:02.619764 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+E, [2016-06-16T23:16:06.798385 #99671] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2016-06-16T23:16:06.798752 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2016-06-16T23:16:06.798797 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/application.rb:246:in `env_config'
+E, [2016-06-16T23:16:06.798821 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/engine.rb:514:in `call'
+E, [2016-06-16T23:16:06.798855 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+E, [2016-06-16T23:16:06.798879 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:562:in `process_client'
+E, [2016-06-16T23:16:06.798908 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:658:in `worker_loop'
+E, [2016-06-16T23:16:06.798938 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:508:in `spawn_missing_workers'
+E, [2016-06-16T23:16:06.798968 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:132:in `start'
+E, [2016-06-16T23:16:06.798999 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+E, [2016-06-16T23:16:06.799021 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `load'
+E, [2016-06-16T23:16:06.799050 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `<main>'
+E, [2016-06-16T23:16:06.799079 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+E, [2016-06-16T23:16:06.799108 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+E, [2016-06-16T23:16:15.508372 #99671] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2016-06-16T23:16:15.508813 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2016-06-16T23:16:15.508851 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/application.rb:246:in `env_config'
+E, [2016-06-16T23:16:15.508873 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/engine.rb:514:in `call'
+E, [2016-06-16T23:16:15.508903 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+E, [2016-06-16T23:16:15.508925 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:562:in `process_client'
+E, [2016-06-16T23:16:15.508953 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:658:in `worker_loop'
+E, [2016-06-16T23:16:15.508974 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:508:in `spawn_missing_workers'
+E, [2016-06-16T23:16:15.508993 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:132:in `start'
+E, [2016-06-16T23:16:15.509013 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+E, [2016-06-16T23:16:15.509039 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `load'
+E, [2016-06-16T23:16:15.509069 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `<main>'
+E, [2016-06-16T23:16:15.509089 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+E, [2016-06-16T23:16:15.509116 #99671] ERROR -- : /home/ricardolopes/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+I, [2016-06-16T23:22:37.190515 #99667]  INFO -- : reaped #<Process::Status: pid 99671 exit 0> worker=0
+I, [2016-06-16T23:22:37.191081 #99667]  INFO -- : reaped #<Process::Status: pid 99674 exit 0> worker=1
+I, [2016-06-16T23:22:37.191398 #99667]  INFO -- : master complete

@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TennisApp</title>
+  <title>Ranking Tennis</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag "application", 'https://fonts.googleapis.com/css?family=Shadows+Into+Light', :media => "all" %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<%= render partial: 'navbar' %>
 <%= yield %>
 
 </body>
